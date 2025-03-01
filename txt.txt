@@ -1,0 +1,15 @@
+Git Commands
+
+
+// Setting Username
+1.git config --global user.name "Name"
+.git config --global user.name
+// Setting Usermail
+2.git config --global user.email "Email"
+.git config --global user.email
+
+3.git clone repo_url // Cloning or Copying repository from github
+4.git status //list down all modified or newly added files/folders or changes made
+
+// Pushing Changes or newly modified files to remote repository
+5.git add . // 
