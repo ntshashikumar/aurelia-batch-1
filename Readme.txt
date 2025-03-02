@@ -17,8 +17,10 @@ Git Commands
 // Pushing Changes or newly modified files to remote repository
 6.git add . // All modifieed files/folders to the Staging area(files ready to added to remote)
 7.git commit -m "Initial Commit" //Files/folders which are ready to be pushed to the remote repository
-8.git push origin BRANCH_NAME // for pushing changes to the remote repository
+8.git push origin BRANCH_NAME // for pushing local changes to the remote repository
 
 // Creating new branch
 git branch BRANCH_NAME // create a branch
 git checkout BRANCH_NAME // Select or gets into the specified branch 
+
+git pull origin BRANCH_NAME // Pulling latest changes from remote repository to local repository
